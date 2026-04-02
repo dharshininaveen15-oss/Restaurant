@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickServe | Digital Dining</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-gray-50 font-sans">
+    <nav class="flex items-center justify-between px-8 py-4 bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b">
+        <div class="text-2xl font-bold text-orange-600 tracking-tight">QuickServe</div>
+        <div class="hidden md:flex space-x-8 font-medium text-gray-600">
+            <a href="/" class="text-orange-600">Home</a>
+            <a href="/menu" class="hover:text-orange-600 transition">Menu</a>
+            <a href="/contact" class="hover:text-orange-600 transition">Contact</a>
+        </div>
+        <div class="flex items-center space-x-4">
+            <a href="/login" class="text-sm font-semibold text-gray-700">Login</a>
+            <a href="/signup" class="px-5 py-2 text-sm font-semibold text-white bg-orange-600 rounded-full hover:bg-orange-700 transition shadow-lg">Join Now</a>
+        </div>
+    </nav>
+
+    <header class="relative h-[90vh] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-black/40 z-10"></div>
+        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=2070" class="absolute inset-0 w-full h-full object-cover scale-105" alt="Restaurant Background">
+        <div class="relative z-20 text-center px-6 max-w-4xl">
+            <span class="inline-block px-4 py-1 mb-4 text-xs font-bold tracking-widest text-white uppercase bg-orange-600 rounded-full">New Era of Dining</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">Order from your table, <br><span class="text-orange-400">instantly.</span></h1>
+            <p class="text-lg text-gray-200 mb-10 max-w-xl mx-auto">No apps to download. No waiting for waiters. Just scan the QR code and enjoy your meal.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="/menu" class="px-10 py-4 bg-orange-600 text-white rounded-full text-lg font-bold hover:bg-orange-700 transition-all transform hover:scale-105 shadow-xl">Browse Menu</a>
+                <a href="#how-it-works" class="px-10 py-4 bg-white/10 backdrop-blur-md text-white border border-white/30 rounded-full text-lg font-bold hover:bg-white/20 transition">How it Works</a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
